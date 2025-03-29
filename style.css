@@ -89,3 +89,9 @@ nav {
   justify-content: space-between;
   background-color: var(--primary-color);
 }
+
+.nav__logo .logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--white);
+}
