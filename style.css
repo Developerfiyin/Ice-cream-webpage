@@ -120,3 +120,12 @@ nav {
 .nav__links.open {
   transform: translateY(100%);
 }
+
+.nav__links a {
+  font-weight: 500;
+  color: var(--white);
+  white-space: nowrap;
+}
+.nav__links a:hover {
+  color: var(--text-dark);
+}
