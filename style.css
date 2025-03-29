@@ -63,3 +63,13 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav {
+  position: fixed;
+  isolation: isolate;
+  width: 100%;
+  z-index: 1;
+}
