@@ -111,5 +111,8 @@ nav {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  padding: 2 rem;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  transition: transform 0.5s;
+  z-index: 1;
 }
