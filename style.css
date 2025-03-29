@@ -101,3 +101,15 @@ nav {
   color: var(--white);
   cursor: pointer;
 }
+.nav__links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2 rem;
+}
