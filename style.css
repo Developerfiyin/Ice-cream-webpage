@@ -129,3 +129,7 @@ nav {
 .nav__links a:hover {
   color: var(--text-dark);
 }
+
+.nav__btn {
+  display: none;
+}
