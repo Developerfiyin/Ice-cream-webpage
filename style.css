@@ -136,3 +136,8 @@ nav {
 .nav__btns {
   display: none;
 }
+@media (width > 768px) {
+  nav {
+    position: static;
+  }
+}
