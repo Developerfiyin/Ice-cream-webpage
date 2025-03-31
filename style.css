@@ -153,8 +153,13 @@ nav {
     padding: 0;
     background-color: transparent;
   }
+
   .nav__logo .logo {
     font-size: 1.5rem;
     color: var(--text-dark);
+  }
+
+  .nav__logo .logo span {
+    color: var(--primary-color);
   }
 }
