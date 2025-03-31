@@ -145,6 +145,16 @@ header {
   position: relative;
   isolation: isolate;
 }
+
+.header___image::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  aspect-ratio: 1;
+  z-index: -1;
+}
 @media (width > 768px) {
   nav {
     position: static;
