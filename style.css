@@ -195,4 +195,7 @@ nav {
     color: var(--text-dark);
     background-color: transparent;
   }
+  .nav__btns .btn:hover {
+    color: var(--primary-color);
+  }
 }
