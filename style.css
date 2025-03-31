@@ -141,6 +141,10 @@ header {
   padding-top: 5rem;
   display: grid;
 }
+.header___image {
+  position: relative;
+  isolation: isolate;
+}
 @media (width > 768px) {
   nav {
     position: static;
