@@ -189,4 +189,10 @@ nav {
     justify-content: flex-end;
     gap: 1rem;
   }
+  .nav__btns .btn {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    background-color: transparent;
+  }
 }
