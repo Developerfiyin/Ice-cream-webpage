@@ -164,6 +164,14 @@ header {
   padding-block: 2rem 5rem;
   padding-inline: 1rem;
 }
+.header__content h1 {
+  margin-bottom: 2rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-align: center;
+  line-height: 5.5rem;
+}
 
 @media (width > 768px) {
   nav {
