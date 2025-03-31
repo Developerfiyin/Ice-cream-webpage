@@ -136,6 +136,11 @@ nav {
 .nav__btns {
   display: none;
 }
+
+header {
+  padding-top: 5rem;
+  display: grid;
+}
 @media (width > 768px) {
   nav {
     position: static;
