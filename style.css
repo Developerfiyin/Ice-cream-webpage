@@ -162,4 +162,7 @@ nav {
   .nav__logo .logo span {
     color: var(--primary-color);
   }
+  .nav__menu__btn {
+    display: none;
+  }
 }
