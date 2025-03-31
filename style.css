@@ -174,4 +174,8 @@ nav {
     background-color: transparent;
     transform: none !important;
   }
+
+  .nav__links a {
+    color: var(--text-dark);
+  }
 }
