@@ -172,6 +172,9 @@ header {
   text-align: center;
   line-height: 5.5rem;
 }
+.header__content h1 span {
+  color: var(--primary-color);
+}
 
 @media (width > 768px) {
   nav {
