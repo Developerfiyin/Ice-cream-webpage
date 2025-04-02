@@ -22,3 +22,10 @@ const scrollRevealOption = {
   origin: "bottom",
   duration: 1000,
 };
+
+scrollRevealOption().reveal(".header__image img", {
+  duration: 1000,
+});
+scrollRevealOption().reveal(".header__content h1", {
+  delay: 500,
+});
