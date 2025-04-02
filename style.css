@@ -187,6 +187,16 @@ header {
   justify-content: center;
   gap: 1rem;
 }
+
+.socials a {
+  display: inline-block;
+  padding: 5px 9px;
+  font-size: 1.125rem;
+  color: white;
+  background-color: var(--text-dark);
+  border-radius: 100%;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
