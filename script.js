@@ -29,3 +29,12 @@ scrollRevealOption().reveal(".header__image img", {
 scrollRevealOption().reveal(".header__content h1", {
   delay: 500,
 });
+scrollRevealOption().reveal(".header__content h1", {
+  delay: 500,
+});
+scrollRevealOption().reveal(".header__content h1", {
+  delay: 500,
+});
+scrollRevealOption().reveal(".header__content h1", {
+  delay: 500,
+});
