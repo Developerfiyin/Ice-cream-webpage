@@ -278,4 +278,11 @@ header {
     grid-area: 1/2/2/3;
     padding-block: 5rem;
   }
+  .header__content :is(h1, .section__description, .header__btn) {
+    text-align: left;
+  }
+
+  .header__content .socials {
+    justify-content: flex-start;
+  }
 }
