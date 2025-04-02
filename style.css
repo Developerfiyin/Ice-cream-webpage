@@ -196,6 +196,9 @@ header {
   background-color: var(--text-dark);
   border-radius: 100%;
 }
+.socials a:hover {
+  background-color: var(--primary-color);
+}
 
 @media (width > 768px) {
   nav {
