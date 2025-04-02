@@ -274,4 +274,8 @@ header {
   .header__image {
     grid-column: 3/5;
   }
+  .header__content {
+    grid-area: 1/2/2/3;
+    padding-block: 5rem;
+  }
 }
