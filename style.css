@@ -159,7 +159,6 @@ header {
 .header__image img {
   max-width: 675px;
 }
-
 .header__content {
   padding-block: 2rem 5rem;
   padding-inline: 1rem;
@@ -269,7 +268,7 @@ header {
       minmax(0, calc(var(--max-width) / 2))
       minmax(0, calc(var(--max-width) / 2))
       minmax(0, 1fr);
-    text-align: center;
+    align-items: center;
   }
   .header__image {
     grid-column: 3/5;
