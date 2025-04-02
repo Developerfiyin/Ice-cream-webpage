@@ -211,6 +211,17 @@ header {
   bottom: 5rem;
   left: 0;
   height: 60%;
+  width: 100%;
+  z-index: -1;
+  transition: 0.5s;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+.popular__card:hover::before {
+  height: 100%;
+}
+
+.popular__card:nth-child(1):before {
+  background-color: #fde6f2;
 }
 
 @media (width > 768px) {
