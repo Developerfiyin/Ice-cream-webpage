@@ -199,6 +199,12 @@ header {
   background-color: var(--primary-color);
 }
 
+.popular__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 4rem 1rem;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
