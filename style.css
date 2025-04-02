@@ -176,6 +176,11 @@ header {
   color: var(--primary-color);
 }
 
+.header__btn {
+  margin-block: 2rem;
+  text-align: center;
+}
+
 @media (width > 768px) {
   nav {
     position: static;
