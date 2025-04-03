@@ -352,7 +352,15 @@ header {
     justify-content: flex-start;
   }
 
+  .popular__container .section__header {
+    text-align: left;
+  }
   .popular__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (width > 1024px) {
+  .popular__grid {
+    gap: 2rem;
   }
 }
