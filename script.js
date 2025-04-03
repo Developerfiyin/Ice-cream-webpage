@@ -23,27 +23,27 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
-scrollRevealOption().reveal(".header__image img", {
+ScrollRevealOption().reveal(".header__image img", {
   duration: 1000,
 });
-scrollRevealOption().reveal(".header__content h1", {
+ScrollRevealOption().reveal(".header__content h1", {
   ...scrollRevealOption,
   delay: 500,
 });
-scrollRevealOption().reveal(".header__content .section__description", {
+ScrollRevealOption().reveal(".header__content .section__description", {
   ...scrollRevealOption,
   delay: 1000,
 });
-scrollRevealOption().reveal(".header__btn", {
+ScrollRevealOption().reveal(".header__btn", {
   ...scrollRevealOption,
   delay: 1500,
 });
-scrollRevealOption().reveal(".header__content .socials", {
+ScrollRevealOption().reveal(".header__content .socials", {
   ...scrollRevealOption,
   delay: 2000,
 });
 
-scrollRevealOption().reveal(".popular__card", {
+ScrollRevealOption().reveal(".popular__card", {
   ...scrollRevealOption,
-  delay: 500,
+  interval: 500,
 });
