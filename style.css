@@ -359,6 +359,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 @media (width > 1024px) {
   .popular__grid {
     gap: 2rem;
