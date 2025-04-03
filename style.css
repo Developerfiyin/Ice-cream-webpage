@@ -3,7 +3,7 @@
 :root {
   --primary-color: #ed8613;
   --primary-color-dark: #d47911;
-  --text-dark: #33333333;
+  --text-dark: #333333;
   --text-light: #767268;
   --extra-light: #f1f1f1;
   --white: #ffffff;
@@ -254,10 +254,11 @@ header {
   color: var(--text-dark);
   text-align: center;
 }
-.popular__card h1 {
+.popular__card__content h3 {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--primary-color);
+  text-align: center;
 }
 
 @media (width > 768px) {
