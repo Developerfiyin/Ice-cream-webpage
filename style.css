@@ -315,6 +315,11 @@ header {
   background-size: cover;
 }
 
+.banner__content {
+  padding-block: 2rem 5rem;
+  padding-inline: 1rem;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+}
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
