@@ -308,6 +308,9 @@ header {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .discover__card img {
+    height: 300px;
+  }
 }
 
 @media (width > 768px) {
