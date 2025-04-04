@@ -416,6 +416,9 @@ header {
   .discover__card img {
     height: 350px;
   }
+  .discover__card:nth-child(2) .discover__card__content {
+    order: -1;
+  }
 }
 
 @media (width > 1024px) {
