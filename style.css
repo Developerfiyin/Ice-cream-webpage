@@ -303,6 +303,10 @@ header {
 .discover__card__btn {
   text-align: center;
 }
+.banner {
+  display: grid;
+  padding-block: 5rem;
+}
 
 @media (width > 540px) {
   .popular__grid {
