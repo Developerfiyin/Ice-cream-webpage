@@ -47,3 +47,8 @@ ScrollRevealOption().reveal(".popular__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+ScrollRevealOption().reveal(".discover__card img", {
+  ...scrollRevealOption,
+  origin: left,
+});

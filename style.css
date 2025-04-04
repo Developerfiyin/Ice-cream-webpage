@@ -419,6 +419,10 @@ header {
   .discover__card:nth-child(2) .discover__card__content {
     order: -1;
   }
+
+  .discover__card__content:is(h4, .section__description, h3, .discover__card) {
+    text-align: left;
+  }
 }
 
 @media (width > 1024px) {
