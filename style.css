@@ -405,6 +405,17 @@ header {
   .popular__grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .discover__container:is(.section__header, .section__description) {
+    text-align: left;
+    max-width: 600px;
+  }
+  .discover__card {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .discover__card img {
+    height: 350px;
+  }
 }
 
 @media (width > 1024px) {
