@@ -320,6 +320,14 @@ header {
   padding-inline: 1rem;
   border-top: 2px solid rgba(0, 0, 0, 0.5);
 }
+
+.banner__content .section__description {
+  margin-block: 1rem 4rem;
+}
+
+.banner__flex {
+  display: flex;
+}
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
