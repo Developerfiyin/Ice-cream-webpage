@@ -260,6 +260,16 @@ header {
   color: var(--primary-color);
   text-align: center;
 }
+
+.discover__container .section__description {
+  margin-block: 1rem;
+}
+.discover__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 4rem;
+}
+
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
