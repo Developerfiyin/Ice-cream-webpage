@@ -276,6 +276,11 @@ header {
   overflow: hidden;
 }
 
+.discover__card img {
+  height: 200px;
+  object-fit: cover;
+}
+
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
