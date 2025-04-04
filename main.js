@@ -22,38 +22,38 @@ const scrollRevealOption = {
   origin: "bottom",
   duration: 1000,
 };
-
-ScrollRevealOption().reveal(".header__image img", {
+ScrollReveal().reveal(".header__image img", {
   duration: 1000,
 });
-ScrollRevealOption().reveal(".header__content h1", {
+
+ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
   delay: 500,
 });
-ScrollRevealOption().reveal(".header__content .section__description", {
+ScrollReveal().reveal(".header__content .section__description", {
   ...scrollRevealOption,
   delay: 1000,
 });
-ScrollRevealOption().reveal(".header__btn", {
+ScrollReveal().reveal(".header__btn", {
   ...scrollRevealOption,
   delay: 1500,
 });
-ScrollRevealOption().reveal(".header__content .socials", {
+ScrollReveal().reveal(".header__content .socials", {
   ...scrollRevealOption,
   delay: 2000,
 });
 
-ScrollRevealOption().reveal(".popular__card", {
+ScrollReveal().reveal(".popular__card", {
   ...scrollRevealOption,
   interval: 500,
 });
 
-scrollRevealOption().reveal(".discover__card img", {
+ScrollReveal().reveal(".discover__card img", {
   ...scrollRevealOption,
   origin: left,
 });
 
-scrollRevealOption().reveal(".popular__card:nth-child(2) img", {
+ScrollReveal().reveal(".popular__card:nth-child(2) img", {
   ...scrollRevealOption,
   origin: "right",
 });
