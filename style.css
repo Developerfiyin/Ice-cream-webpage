@@ -295,6 +295,14 @@ header {
   color: var(--text-dark);
   text-align: center;
 }
+.discover__card h3 span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-light);
+}
+.discover__card__btn {
+  text-align: center;
+}
 
 @media (width > 540px) {
   .popular__grid {
