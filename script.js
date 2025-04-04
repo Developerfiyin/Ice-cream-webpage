@@ -48,7 +48,12 @@ ScrollRevealOption().reveal(".popular__card", {
   interval: 500,
 });
 
-ScrollRevealOption().reveal(".discover__card img", {
+scrollRevealOption().reveal(".discover__card img", {
   ...scrollRevealOption,
   origin: left,
+});
+
+scrollRevealOption().reveal(".popular__card:nth-child(2) img", {
+  ...scrollRevealOption,
+  origin: "right",
 });
