@@ -327,7 +327,10 @@ header {
 
 .banner__flex {
   display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
+
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
