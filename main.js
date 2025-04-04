@@ -50,10 +50,10 @@ ScrollReveal().reveal(".popular__card", {
 
 ScrollReveal().reveal(".discover__card img", {
   ...scrollRevealOption,
-  origin: left,
+  origin: "left",
 });
 
-ScrollReveal().reveal(".popular__card:nth-child(2) img", {
+ScrollReveal().reveal(".discover__card:nth-child(2) img", {
   ...scrollRevealOption,
   origin: "right",
 });

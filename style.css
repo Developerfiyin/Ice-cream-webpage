@@ -420,7 +420,12 @@ header {
     order: -1;
   }
 
-  .discover__card__content:is(h4, .section__description, h3, .discover__card) {
+  .discover__card__content:is(
+      h4,
+      .section__description,
+      h3,
+      .discover__card__btn
+    ) {
     text-align: left;
   }
 }
