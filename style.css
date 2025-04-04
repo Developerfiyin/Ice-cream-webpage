@@ -330,6 +330,12 @@ header {
   gap: 1rem;
   flex-wrap: wrap;
 }
+.banner__card {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 
 @media (width > 540px) {
   .popular__grid {
