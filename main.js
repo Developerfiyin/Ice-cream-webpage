@@ -57,3 +57,22 @@ ScrollReveal().reveal(".discover__card:nth-child(2) img", {
   ...scrollRevealOption,
   origin: "right",
 });
+
+ScrollReveal().reveal(".discover__card__content h4", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".discover__card__content .section__description", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal(".discover__card__content h3", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
+ScrollReveal().reveal(".discover__card__btn", {
+  ...scrollRevealOption,
+  delay: 2000,
+});
