@@ -281,6 +281,21 @@ header {
   object-fit: cover;
 }
 
+.discover__card h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.discover__card h3 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-align: center;
+}
+
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
