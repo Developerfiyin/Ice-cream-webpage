@@ -390,6 +390,10 @@ header {
   .banner__image {
     min-height: 300px;
   }
+
+  .subscribe__content form {
+    flex-direction: row;
+  }
 }
 
 @media (width > 768px) {
