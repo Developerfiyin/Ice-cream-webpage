@@ -380,6 +380,15 @@ header {
   border-radius: 5px;
 }
 
+footer {
+  background-color: var(--extra-light);
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem 2rem;
+}
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
