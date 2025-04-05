@@ -353,6 +353,7 @@ header {
   padding: 5rem 1rem;
   background-color: #fde6f2;
 }
+
 .subscribe__content .section__description {
   margin-block: 1rem 2rem;
   max-width: 600px;
@@ -365,6 +366,18 @@ header {
   justify-content: center;
   gap: 1rem 2rem;
   flex-direction: column;
+}
+
+.subscribe__content input {
+  width: 100%;
+  max-width: 400px;
+  padding: calc(1rem - 2px);
+  font-size: 1rem;
+  color: var(--text-dark);
+  background-color: transparent;
+  outline: none;
+  border: 1px solid var(--text-dark);
+  border-radius: 5px;
 }
 
 @media (width > 540px) {
