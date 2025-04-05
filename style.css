@@ -389,6 +389,19 @@ footer {
   flex-direction: column;
   gap: 4rem 2rem;
 }
+
+.footer__col {
+  align-items: center;
+}
+.footer__col .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.footer__col .logo span {
+  color: var(--primary-color);
+}
+
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
