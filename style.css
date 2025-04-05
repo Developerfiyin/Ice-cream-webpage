@@ -347,6 +347,7 @@ header {
   font-size: 1rem;
   font-weight: 600;
   color: var(--text-dark);
+  text-align: center;
 }
 
 @media (width > 540px) {
@@ -355,6 +356,9 @@ header {
   }
   .discover__card img {
     height: 300px;
+  }
+  .banner__image {
+    min-height: 300px;
   }
 }
 
