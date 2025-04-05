@@ -579,6 +579,23 @@ footer {
   .banner__content :is(.section__header, .section__description) {
     text-align: left;
   }
+  .footer__container {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .footer__col:nth-child(1),
+  .footer__col:nth-child(3) {
+    flex: 1;
+    text-align: left;
+  }
+
+  .footer__links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
 }
 
 @media (width > 1024px) {
