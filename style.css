@@ -349,7 +349,10 @@ header {
   color: var(--text-dark);
   text-align: center;
 }
-
+.subscribe__content {
+  padding: 5rem 1rem;
+  background-color: #fde6f2;
+}
 .subscribe__content .section__description {
   margin-block: 1rem 2rem;
   max-width: 600px;
