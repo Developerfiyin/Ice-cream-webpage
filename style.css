@@ -477,6 +477,15 @@ header {
     ) {
     text-align: left;
   }
+
+  .banner {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, calc(var(--max-width) / 2))
+      minmax(0, calc(var(--max-width) / 2))
+      minmax(0, 1fr);
+    align-items: center;
+  }
 }
 
 @media (width > 1024px) {
