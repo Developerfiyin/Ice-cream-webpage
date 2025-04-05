@@ -76,3 +76,17 @@ ScrollReveal().reveal(".discover__card__btn", {
   ...scrollRevealOption,
   delay: 2000,
 });
+
+ScrollReveal().reveal(".banner__content .section__header", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".banner__content .section__description", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+ScrollReveal().reveal(".banner__card ", {
+  ...scrollRevealOption,
+  interval: 500,
+  delay: 1000,
+});

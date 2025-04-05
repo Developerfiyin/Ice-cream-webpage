@@ -507,4 +507,8 @@ header {
   .popular__grid {
     gap: 2rem;
   }
+
+  .discover__card {
+    gap: 4rem;
+  }
 }
