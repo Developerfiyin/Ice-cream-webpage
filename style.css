@@ -350,6 +350,20 @@ header {
   text-align: center;
 }
 
+.subscribe__content .section__description {
+  margin-block: 1rem 2rem;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.subscribe__content form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 2rem;
+  flex-direction: column;
+}
+
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
