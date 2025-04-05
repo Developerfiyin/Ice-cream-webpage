@@ -337,6 +337,18 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+.banner__card img {
+  max-width: 50px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+
+.banner__card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
 @media (width > 540px) {
   .popular__grid {
     grid-template-columns: repeat(2, 1fr);
