@@ -90,3 +90,17 @@ ScrollReveal().reveal(".banner__card ", {
   interval: 500,
   delay: 1000,
 });
+
+ScrollReveal().reveal(".subscribe__content .section__header", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".subscribe__content .section__description", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".subscribe__content form", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
