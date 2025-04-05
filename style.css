@@ -486,6 +486,17 @@ header {
       minmax(0, 1fr);
     align-items: center;
   }
+
+  .banner__image {
+    grid-column: 3/5;
+    min-height: 100%;
+  }
+
+  .banner__content {
+    grid-area: 1/2/2/3;
+    padding-block: 2rem;
+    padding-inline: 1rem 2rem;
+  }
 }
 
 @media (width > 1024px) {
