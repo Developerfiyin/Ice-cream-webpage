@@ -497,6 +497,10 @@ header {
     padding-block: 2rem;
     padding-inline: 1rem 2rem;
   }
+
+  .banner__content :is(.section__header, .section__description) {
+    text-align: left;
+  }
 }
 
 @media (width > 1024px) {
