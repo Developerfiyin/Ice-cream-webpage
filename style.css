@@ -401,6 +401,17 @@ footer {
 .footer__col .logo span {
   color: var(--primary-color);
 }
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__links a {
+  font-weight: 500;
+  color: var(--text-dark);
+  white-space: nowrap;
+}
 
 @media (width > 540px) {
   .popular__grid {
